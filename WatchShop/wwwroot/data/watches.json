@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Rolex",
+    "image": "https://assets.vogue.com/photos/610c375c57a8f3b3e50c845c/3:4/w_1280,c_limit/slide_11.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tag Heuer",
+    "image": "https://assets.vogue.com/photos/60fb2e38404550f37f8c30a1/3:4/w_1280,c_limit/tag.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Cartier",
+    "image": "https://assets.vogue.com/photos/60fb2dc1cb904cb4d2e7cfda/3:4/w_1280,c_limit/cartier.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Grand Seiko",
+    "image": "https://assets.vogue.com/photos/610c36f90f269150843b9846/3:4/w_1280,c_limit/slide_4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Omega",
+    "image": "https://assets.vogue.com/photos/60fb2df93294b98fdce6021e/3:4/w_1280,c_limit/omega.jpg"
+  }
+]
