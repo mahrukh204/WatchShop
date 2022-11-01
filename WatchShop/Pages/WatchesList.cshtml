@@ -1,0 +1,24 @@
+﻿@page
+@model WatchesShop.Pages.WatchesListModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Watches Shop</h1>
+</div>
+
+<div class="row">
+    @foreach (var watch in Model.watches)
+    {
+        <div class="col-lg-3 col-md-4 col-sm-12 ">
+            <img id="watchesImage" src="@watch.watch_image\" alt="@watch.watch_name" />
+            <span id="watchesTitle">@watch.watch_name</span>
+            <span id="watchesPrice">Rs. Coming Soon</span>
+            <span><input id="watchQunatity" type="number" name="quantity" value="" placeholder="0" /></span>
+            <span id="cartButton"><button>Add to Cart</button></span>
+        </div>
+    }
+</div>

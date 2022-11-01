@@ -1,6 +1,41 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+#watchesContainer{
+    margin-bottom: 50px;
 
+}
+#watchesImage{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#watchesTitle{
+    display: block;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 20px;
+}
+
+#watchesPrice {
+    display: block;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color:black;
+}
+
+#watchesQuantity{
+    width: 45%;
+    display: inline;
+}
+
+#cartButton {
+    width: 45%;
+    display: inline;
+}
 a.navbar-brand {
   white-space: normal;
   text-align: center;

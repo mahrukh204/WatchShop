@@ -9,6 +9,10 @@ namespace WatchesShop.Model
 {
     public class Watches
     {
+        internal int watches_id;
+        internal string watches_name;
+        internal string watches_image;
+
         [JsonPropertyName("id")]
         public int watch_id { get; set; }
 
